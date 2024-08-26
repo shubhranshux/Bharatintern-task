@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    background-image:url("https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148623068.jpg?semt=ais_hybrid");
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-app {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.weather-app h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.search-box {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-box button {
+    width: 25%;
+    padding: 10px;
+    border: none;
+    background-color: #1e90ff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+    background-color: #0073e6;
+}
+
+.weather-result {
+    margin-top: 20px;
+    display: none;
+}
+
+.weather-result div {
+    margin-bottom: 10px;
+}
+
+.weather-result span {
+    font-weight: bold;
+    color: #333;
+}
